@@ -1,5 +1,36 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/jmj/Professionnel/Recherche/Projets/Scan_Simple_Coordination_Workbench/Anemone-upto-1.0/Anemone-0.1/src/main/scala/ab_parser/ab_parser.scala:216:78: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_parser\ab_parser.scala:216:78: match may not be exhaustive.[0m
 [0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: ~(_, (x: Object forSome x not in (ab_data.AB_AST_Proc_Call, ab_data.AB_SI_ATOMIC, ab_data.AB_SI_COMPOSED)))[0m
 [0m[[0m[33mwarn[0m] [0m[0m  def signedStPnInfo : Parser[AB_SIGNED_SI_PN_ELM] = signSIElm ~ stPnInfo ^^ {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                                                             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_scene\ab_scene.scala:112:31: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: None[0m
+[0m[[0m[33mwarn[0m] [0m[0m          theMemory.ab_wd_rule(wn,bb) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_simulators\ab_simulator.scala:263:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m      l_ag match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_simulators\ab_simulator_mc.scala:689:66: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m         case AB_AST_List_Primitive(lp) =>  AB_AST_List_Primitive(lp)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_simulators\ab_simulator_mc.scala:813:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m      l_ag match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_window_agents\ab_agent_inter_told.scala:164:10: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: List((x: InteractiveAgentTold.this.abWidget forSome x not in (InteractiveAgentTold.this.AB_Button, InteractiveAgentTold.this.AB_Label)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m         l_ab_wi match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_window_agents\ab_agent_inter_told.scala:179:10: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: List((x: InteractiveAgentTold.this.abWidget forSome x not in (InteractiveAgentTold.this.AB_Button, InteractiveAgentTold.this.AB_Label)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m         l_ab_wi match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_window_agents\agent_inter_interact.scala:185:10: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: List((x: InteractiveInterAgent.this.abWidget forSome x not in (InteractiveInterAgent.this.AB_Button, InteractiveInterAgent.this.AB_Label)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m         l_ab_wi match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\supportingApps\anemone\SourceCode\Anemone-1.1\src\main\scala\ab_window_agents\agent_inter_interact.scala:200:10: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: List((x: InteractiveInterAgent.this.abWidget forSome x not in (InteractiveInterAgent.this.AB_Button, InteractiveInterAgent.this.AB_Label)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m         l_ab_wi match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 warnings found[0m
